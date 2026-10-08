@@ -23,6 +23,7 @@ The system establishes a seamless bidirectional communication link between a Uni
 * Power Supply (12V)
 
 ## 💻 Software & Control Systems
+* **Supported OS:** Windows (Required for standard Serial COM port communication).
 * **Unity 3D & C#:** Used to design the interactive Digital Twin dashboard.
 * **Arduino C/C++:** Used for microcontroller firmware.
 * **PID Control:** The system features advanced internal algorithms, utilizing a **Speed PID** to maintain target RPM and a **Position PID** for precise angular targeting.
@@ -30,7 +31,7 @@ The system establishes a seamless bidirectional communication link between a Uni
 ## 🏃‍♂️ How to Run
 1. Flash the firmware from the `Arduino-DC-Motor-Code` folder to your Arduino.
 2. Ensure your hardware components are wired correctly according to the pin definitions in the code.
-3. Open the `MotorTwinApp` project in Unity, or run the compiled executable if you built one.
+3. Open the `MotorTwinApp` project in Unity, or run the compiled Windows executable (`.exe`) if you built one.
 4. Select the correct COM port in the Unity UI to establish the Serial connection.
 5. Start controlling your physical motor directly from the virtual dashboard!
 
